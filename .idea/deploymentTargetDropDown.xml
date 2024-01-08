@@ -36,18 +36,18 @@
       </entry>
       <entry key="mod02d04">
         <State>
-          <runningDeviceTargetSelectedWithDropDown>
+          <targetSelectedWithDropDown>
             <Target>
-              <type value="RUNNING_DEVICE_TARGET" />
+              <type value="QUICK_BOOT_TARGET" />
               <deviceKey>
                 <Key>
-                  <type value="SERIAL_NUMBER" />
-                  <value value="R58N60WKHVJ" />
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\stropee\.android\avd\Medium_Phone_API_26.avd" />
                 </Key>
               </deviceKey>
             </Target>
-          </runningDeviceTargetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-01-08T13:58:16.682705600Z" />
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-08T14:04:24.192111700Z" />
         </State>
       </entry>
       <entry key="mod2d03">
