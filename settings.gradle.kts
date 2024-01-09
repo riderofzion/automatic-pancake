@@ -17,3 +17,4 @@ rootProject.name = "HelloWorld"
 include(":app")
 include(":mod2d03")
 include(":mod02d04")
+include(":mod3d01")
