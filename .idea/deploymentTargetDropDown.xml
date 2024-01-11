@@ -152,6 +152,22 @@
           <timeTargetWasSelectedWithDropDown value="2024-01-11T08:26:26.023996600Z" />
         </State>
       </entry>
+      <entry key="mod6d01">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="D:\avd\Pixel_7_Pro_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-11T14:49:28.131104300Z" />
+        </State>
+      </entry>
     </value>
   </component>
 </project>
