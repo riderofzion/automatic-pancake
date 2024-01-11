@@ -27,3 +27,5 @@ include(":mod5d01")
 include(":mod5tp1")
 
 include(":mod6d01")
+include(":mod6d02")
+include(":mod6d03")
