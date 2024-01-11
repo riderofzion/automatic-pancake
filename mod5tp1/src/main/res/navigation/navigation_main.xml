@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/whiteFragment">
+
+    <fragment
+        android:id="@+id/blueFragment"
+        android:name="com.example.mod5tp1.BlueFragment"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+    <fragment
+        android:id="@+id/purpleFragment"
+        android:name="com.example.mod5tp1.PurpleFragment"
+        android:label="fragment_purple"
+        tools:layout="@layout/fragment_purple" />
+    <fragment
+        android:id="@+id/greenFragment"
+        android:name="com.example.mod5tp1.GreenFragment"
+        android:label="fragment_green"
+        tools:layout="@layout/fragment_green" />
+    <fragment
+        android:id="@+id/redFragment"
+        android:name="com.example.mod5tp1.RedFragment"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_red" >
+        <action
+            android:id="@+id/redToBlue"
+            app:destination="@id/blueFragment" />
+        <action
+            android:id="@+id/redToPurple"
+            app:destination="@id/purpleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/whiteFragment"
+        android:name="com.example.mod5tp1.WhiteFragment"
+        android:label="fragment_white"
+        tools:layout="@layout/fragment_white" >
+        <action
+            android:id="@+id/whiteToRed"
+            app:destination="@id/redFragment" />
+        <action
+            android:id="@+id/whiteToGreen"
+            app:destination="@id/greenFragment" />
+    </fragment>
+</navigation>
