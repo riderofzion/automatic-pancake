@@ -2,6 +2,22 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="PokedexTest">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="D:\avd\Pixel_7_Pro_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-16T09:05:16.372547100Z" />
+        </State>
+      </entry>
       <entry key="app">
         <State />
       </entry>
@@ -55,6 +71,25 @@
         </State>
       </entry>
       <entry key="mod7d03">
+        <State />
+      </entry>
+      <entry key="mod9d01">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="D:\avd\Pixel_7_Pro_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-16T09:01:57.548572700Z" />
+        </State>
+      </entry>
+      <entry key="testInsertPikachu()">
         <State />
       </entry>
     </value>

@@ -7,9 +7,12 @@ import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
 import com.example.mod7d03.databinding.ActivityCounterBinding
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class CounterActivity : AppCompatActivity() {
-    val vm by viewModels<CounterViewModel>()
+    private val vm by viewModels<CounterViewModel>()
     lateinit var binding : ActivityCounterBinding
 
     //var counter = 0

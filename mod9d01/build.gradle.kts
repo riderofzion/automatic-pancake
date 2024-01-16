@@ -2,16 +2,14 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
-    id("com.google.dagger.hilt.android")
-
 }
 
 android {
-    namespace = "com.example.mod7d03"
+    namespace = "com.example.mod9d01"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mod7d03"
+        applicationId = "com.example.mod9d01"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -36,21 +34,20 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
-        dataBinding = true
-    }
 }
-//HILT
-kapt {
-    correctErrorTypes = true
-}
-//END HILT
+
 dependencies {
-    //HILT
-    implementation("com.google.dagger:hilt-android:2.50")
-    kapt("com.google.dagger:hilt-compiler:2.50")
-    //END HILT
     implementation("androidx.activity:activity-ktx:1.8.2")
+    val room_version = "2.6.1"
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:$room_version")
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation("androidx.room:room-ktx:$room_version")
+    // optional - Test helpers
+    testImplementation("androidx.room:room-testing:$room_version")
+
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
