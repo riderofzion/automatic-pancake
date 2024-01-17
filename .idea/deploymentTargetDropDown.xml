@@ -24,6 +24,22 @@
       <entry key="mod02d04">
         <State />
       </entry>
+      <entry key="mod10d01">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="D:\avd\Pixel_7_Pro_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-17T08:26:03.477938600Z" />
+        </State>
+      </entry>
       <entry key="mod2d03">
         <State />
       </entry>
