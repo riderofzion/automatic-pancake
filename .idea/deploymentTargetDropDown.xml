@@ -40,6 +40,22 @@
           <timeTargetWasSelectedWithDropDown value="2024-01-17T08:26:03.477938600Z" />
         </State>
       </entry>
+      <entry key="mod11webservice">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="D:\avd\Pixel_7_Pro_API_26.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-17T11:27:03.006633Z" />
+        </State>
+      </entry>
       <entry key="mod2d03">
         <State />
       </entry>
